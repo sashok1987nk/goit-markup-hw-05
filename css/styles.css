@@ -485,3 +485,41 @@ h6 {
 .footer-social-svg {
   fill: #f4f4fd;
 }
+/*******************backdrop************/
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  top: 0;
+}
+.modal {
+  width: 408px;
+  height: 584px;
+  background: var(--DAIRY, #fcfcfc);
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-btn {
+  width: 24px;
+  height: 24px;
+  background-color: #e7e9fc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: none;
+}
+.modal-btn-icon {
+  width: 100%;
+  height: 100%;
+  background-color: #e7e9fc;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
