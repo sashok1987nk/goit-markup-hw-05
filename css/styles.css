@@ -547,9 +547,16 @@ h6 {
   border-radius: 4px;
   border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   background-color: inherit;
+  padding-left: 38px;
+  outline: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-input:focus {
   border-color: #4d5ae5;
+}
+.modal-input:focus + .modal-icon {
+  fill: #4d5ae5;
 }
 .madal-label {
   display: block;
@@ -557,7 +564,7 @@ h6 {
   height: 14px;
   color: var(--LIGHT-SLATE, #8e8f99);
   font-size: 1.17;
-  line-height: 14px; /* 116.667% */
+  line-height: 14px;
   letter-spacing: 0.03em;
 }
 .modal-input-wrap {
@@ -569,4 +576,7 @@ h6 {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-text {
 }
