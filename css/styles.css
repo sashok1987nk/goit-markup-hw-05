@@ -636,7 +636,8 @@ h6 {
   fill: transparent;
   stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
 }
-.check-input:checked + .check-text span {
+.check-input:checked + .check-text .check-text-span {
   background-color: #4d5ae5;
+  border: none;
   fill: #ffffff;
 }
