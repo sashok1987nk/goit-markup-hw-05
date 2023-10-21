@@ -463,21 +463,20 @@
         <div class="footer-button">
           <p class="foter-subscribe-par">Subscribe</p>
           <form class="footer-form">
-            <div class="foter-Subscribe">
-              <input
-                class="foter-subscribe"
-                type="email"
-                name="user-email"
-                id="footer-user-email"
-                placeholder="E-mail"
-              />
-              <button type="submit" class="foter-subscribe-btn">
-                Subscribe
-                <svg class="foter-subscribe-btn-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-Frame"></use>
-                </svg>
-              </button>
-            </div>
+            <label class="foter-subscribe"></label>
+            <input
+              class="foter-subscribe"
+              type="email"
+              name="user-email"
+              id="footer-user-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="foter-subscribe-btn">
+              Subscribe
+              <svg class="foter-subscribe-btn-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -507,7 +506,7 @@
             </div>
           </div>
           <div class="modal-field">
-            <label for="user-phone" class="madal-label">Phone</label>
+            <label for="user-phone" class="modal-label">Phone</label>
             <div class="modal-input-wrap">
               <input
                 type="tel"
@@ -521,7 +520,7 @@
             </div>
           </div>
           <div class="modal-field">
-            <label for="user-email" class="madal-label">Email</label>
+            <label for="user-email" class="modal-label">Email</label>
             <div class="modal-input-wrap">
               <input
                 type="email"
@@ -534,7 +533,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field modal-field-for">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"
@@ -543,7 +542,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field modal-field-five">
             <input
               type="checkbox"
               name="user-privacy"

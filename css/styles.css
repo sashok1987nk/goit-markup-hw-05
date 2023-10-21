@@ -500,6 +500,7 @@ h6 {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .foter-subscribe {
   color: var(--WHITE, #fff);
@@ -623,6 +624,12 @@ h6 {
 .modal-field {
   margin-bottom: 8px;
 }
+.modal-field-for {
+  margin-bottom: 16px;
+}
+.modal-field-five {
+  margin-bottom: 24px;
+}
 .modal-input {
   width: 100%;
   height: 40px;
@@ -632,7 +639,6 @@ h6 {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus {
@@ -675,7 +681,6 @@ h6 {
   resize: none;
   margin-bottom: 16px;
   margin: 0;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
 }
 .modal-text:focus {
