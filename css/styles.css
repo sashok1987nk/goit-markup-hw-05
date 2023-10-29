@@ -100,7 +100,6 @@ h6 {
 }
 
 .header-link-plus::after {
-  di
   content: "";
   width: 100%;
   height: 4px;
